@@ -3,7 +3,10 @@ import bg from "/serene.jpg";
 export default function Serene() {
   return (
     <>
-      <article className="flex bg-violet-700 flex-wrap gap-[2rem] text-white justify-between py-[2rem] max-md:px-[1rem] px-[4rem] layoutSize">
+      <article
+        id="Serene"
+        className="flex bg-violet-700 flex-wrap gap-[2rem] text-white justify-between py-[2rem] max-md:px-[1rem] px-[4rem] layoutSize"
+      >
         <section>
           <img
             src={bg}

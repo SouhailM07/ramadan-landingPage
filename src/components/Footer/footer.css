@@ -3,3 +3,45 @@
 @tailwind utilities;
 @layer components {
 }
+
+@font-face {
+  font-family: "ramadan";
+  src: url(../font/ramadhan.otf);
+}
+
+.container {
+  color: white;
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-media > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media > img {
+  fill: #e5e511;
+}
+
+.title {
+  font-family: ramadan;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.2rem;
+}
