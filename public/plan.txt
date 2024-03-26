@@ -1,0 +1,22 @@
+navbar links :
+logo
+ Home / About (what is ramadan) / Dishes / Serene
+Share the Spirit
+
+----------------
+npm :
+npm add -D sass
+npm i react-svg
+npm i react-helmet
+npm i scrollreveal
+
+----------------
+components + layout
+----
+navbar
+Home
+WHat is ramadan
+Dishes
+Serene
+Footer
+
