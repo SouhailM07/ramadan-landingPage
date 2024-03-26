@@ -10,7 +10,7 @@ function Footer() {
       id="footer"
       className="container bg-violet-700 !w-full layoutSize mt-[5rem]"
     >
-      <div className="social-media">
+      <div className="social-media flex flex-wrap">
         <h1 className="title">Ramadhan Karim</h1>
         <div className="icons">
           <img src={fb} width={"30px"} />
