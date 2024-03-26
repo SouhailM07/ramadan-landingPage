@@ -14,7 +14,7 @@ export default function Navbar() {
           <ul role="list" className="flex max-md:hidden space-x-[1.5rem]">
             {navLinks.map((e, i) => {
               return (
-                <li role="listitem" key={i} className="cursor-pointer">
+                <li role="listitem" key={i} className="cursor-pointer ">
                   <a href={`#${e}`}>{e}</a>
                 </li>
               );
