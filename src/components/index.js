@@ -5,3 +5,4 @@ export { default as About } from "./About/About";
 export { default as Dishes } from "./Dishes/Dishes";
 export { default as Footer } from "./Footer/Footer";
 export { default as MyCard } from "./MyCard/MyCard";
+export { default as Serene } from "./Serene/Serene";

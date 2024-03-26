@@ -1,6 +1,6 @@
 import "./mycontainer.css";
 // components
-import { Navbar, Home, Dishes } from "@/components";
+import { Navbar, Home, Dishes, Serene } from "@/components";
 export default function MyContainer() {
   return (
     <>
@@ -8,6 +8,7 @@ export default function MyContainer() {
       <main className="space-y-[6rem]">
         <Home />
         <Dishes />
+        <Serene />
       </main>
     </>
   );
