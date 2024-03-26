@@ -8,7 +8,7 @@ export default function Navbar() {
   const navLinks: string[] = ["Home", "About", "Dishes", "Serene"];
   return (
     <>
-      <header className=" py-[0.4rem] bg-[#f7f7f7] sticky top-0 max-w-[80rem] mx-auto">
+      <header className="z-[99] py-[0.4rem] bg-[#f7f7f7] sticky top-0 max-w-[80rem] mx-auto">
         <nav className="flex justify-between items-center px-[2rem]">
           <img src={logo} alt="logo" className="h-[3rem] w-[3rem]" />
           <ul role="list" className="flex space-x-[1.5rem]">
